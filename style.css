@@ -24,7 +24,7 @@ body {
   width: 25%;
   height: 25%;
   position: relative;
-  /* margin: 5px; */
+
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform 0.5s;
@@ -35,6 +35,7 @@ body {
 
 .box__face {
   position: absolute;
+  border: 1px solid rgb(172, 167, 167);
 }
 .memory-card:active {
   transform: scale(0.97);
@@ -43,7 +44,7 @@ body {
 
 .memory-card.flip {
   transform: rotateY(180deg);
-  transition: transform 1.5s;
+  transition: transform 0.7s;
 }
 
 .front-face,
